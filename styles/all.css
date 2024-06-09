@@ -113,6 +113,7 @@ body{
     line-height: 22px;
     font-weight: 700;
     margin: 0 0 110px;
+    cursor: pointer;
 
 }
 .offer__time{
@@ -222,7 +223,7 @@ body{
 
 }
 .discover .discover__title{
-    margin-left: 140px;
+    margin-left: 65px;
     color: #19191c;
     font-size: 50px;
     font-weight: 700;
@@ -236,13 +237,13 @@ body{
 }
 .discover__list{
     display: flex;
-    margin-left: 100px;
+    margin-left: 30px;
     gap: 48px;
     list-style: none;
 
 }
 .see_more{
-    margin-left: 230px;
+    margin-left: 360px;
     text-decoration: none;
     display: inline-flex;
     align-items: center;
@@ -271,7 +272,146 @@ body{
     transition: 0.2s;
 
 }
+.discover__cards{
+    display: flex;
+    margin-bottom: 168px;
+    margin-right: 65px;
+    margin-left: 65px;
+    justify-content: space-between;
+}
+.discover__cards img{
+    margin-bottom: 28px;
+}
+.discover__cards h3{
+    margin-bottom: 11px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 108%;
+    color: #19191c;
 
+}
+.discover__cards p{
+    color: #6d6d77;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156%;
+}
+.find-program{
+    align-items: start;
+    background: #deefe4;
+    display: flex;
+    padding: 164px 807px 168px 160px;
+}
+.find-program .find-program__title{
+    color: #19191c;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 1.25;
+    margin-right: 700px;
+    display: inline;
+    margin-bottom: 28px;
+
+}
+.find-program .find-program__discription{
+    color: #19191c;
+    font-size: 18px;
+    line-height: 1.5555555555555556;
+
+}
+.find-program .find-program__form{
+    margin-top: 20px;
+}
+.find-program .find-program__form input::placeholder{
+    color: #19191c;
+    opacity: 1;
+}
+.find-program input{
+    border: none;
+    max-width: 710px;
+    border-bottom: #19191C solid 2px;
+    padding-right: 350px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156%;
+    color: #19191C;
+    background-color: #deefe4;
+    margin-bottom: 54px;
+}
+.find-program .find-program__button{
+    cursor:pointer ;
+    background: #19191c;
+    color: #fbfbfc;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 16px 37px 12px 37px;
+}
+.find-program input:last-of-type{
+    margin-bottom: 74px;
+}
+footer{
+    background: #19191c;
+
+}
+.alt_footer {
+    align-items: start;
+    display: flex;
+    margin-bottom: 100px;
+
+}
+.footer_1{
+    margin-left: 160px;
+    margin-top: 57px;
+    margin-right: 120px;
+
+
+
+
+}
+.footer_1 li:first-of-type{
+    margin-bottom: 48px;
+
+}
+
+.footer_1 a:first-of-type{
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+    font-size: 18px;
+
+}
+.footer_1 a{
+    font-weight: 600;
+    font-size: 24px;
+    color: #fbfbfc;
+    text-decoration: none;
+
+
+}
+footer .sitemap ul{
+    margin-right: 100px;
+
+}
+footer .sitemap .sitemap__title{
+    font-weight: 600;
+    font-size: 18px;
+    color: #FBFBFC;
+    margin-left: 40px;
+    margin-bottom: 0;
+    padding-top: 68px;
+}
+footer .sitemap li{
+    margin-bottom: 12px;
+}
+footer .sitemap li a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156%;
+    color: #EFEFF2;
+}
+footer .Copyright{
+
+}
 
 
 
