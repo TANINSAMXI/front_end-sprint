@@ -350,6 +350,8 @@ body{
 }
 footer{
     background: #19191c;
+    margin-bottom: 200px;
+    max-height: 550px;
 
 }
 .alt_footer {
@@ -359,9 +361,9 @@ footer{
 
 }
 .footer_1{
-    margin-left: 160px;
+    margin-left: 130px;
     margin-top: 57px;
-    margin-right: 120px;
+    margin-right: 140px;
 
 
 
@@ -378,6 +380,9 @@ footer{
     font-weight: 800;
     font-size: 18px;
 
+}
+.footer_1 .mailto{
+    margin-bottom: 28px;
 }
 .footer_1 a{
     font-weight: 600;
@@ -402,6 +407,7 @@ footer .sitemap .sitemap__title{
 footer .sitemap li{
     margin-bottom: 12px;
 }
+
 footer .sitemap li a{
     text-decoration: none;
     font-weight: 400;
@@ -410,8 +416,20 @@ footer .sitemap li a{
     color: #EFEFF2;
 }
 footer .Copyright{
-
+    display: inline-flex;
+    align-items: center;
+    margin-left: 630px;
+    gap: 28px;
 }
+footer .Copyright a,p{
+    text-decoration: none;
+    color:  #6d6d77;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156%;
+}
+
+
 
 
 
