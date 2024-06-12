@@ -1,5 +1,10 @@
+@media (max-width: 1430px){
+    body {
+       padding:0 0 15px;
+    }
+}
 body{
-  min-width: 1440px;
+  min-width: 1470px;
   background:  #EFEFF2;
   margin: 0;
   color: #19191C;
