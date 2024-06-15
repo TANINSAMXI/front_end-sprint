@@ -23,7 +23,7 @@ buttons.forEach((button) => {
 
         cardsBlocks.forEach(block => {
             const type = block.dataset.tab;
-            if (type == blockType) {
+            if (type === blockType) {
                 block.classList.add('active');
             } else {
                 block.classList.remove('active');
